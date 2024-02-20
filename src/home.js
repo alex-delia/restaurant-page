@@ -14,6 +14,7 @@ function displayHome() {
     restaurantName.textContent = "Bubby's";
 
     const catchprhase = document.createElement('p');
+    catchprhase.style.marginBottom = '16px';
     catchprhase.innerHTML = '<em>SERVED EVERY DAY SINCE 1990</em>';
 
     const description = document.createElement('p');
@@ -23,7 +24,7 @@ function displayHome() {
     home.appendChild(catchprhase);
     home.appendChild(description);
 
-    content.append(home);
+    content.appendChild(home);
 }
 
 export { displayHome };

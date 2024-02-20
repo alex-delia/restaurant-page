@@ -1,9 +1,11 @@
 import { displayHome } from "./home";
+import { displayMenu } from "./menu";
+import { displayContact } from "./contact";
 
 const content = document.querySelector('#content');
 const homeButton = document.querySelector('#home');
 const menuButton = document.querySelector('#menu');
-const aboutButton = document.querySelector('#about');
+const contactButton = document.querySelector('#contact');
 
 displayHome();
 
@@ -14,8 +16,10 @@ homeButton.addEventListener('click', () => {
 
 menuButton.addEventListener('click', () => {
     content.innerHTML = '';
+    displayMenu();
 })
 
-aboutButton.addEventListener('click', () => {
+contactButton.addEventListener('click', () => {
     content.innerHTML = '';
+    displayContact();
 })
