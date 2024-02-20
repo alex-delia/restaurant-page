@@ -1,6 +1,4 @@
 function displayHome() {
-
-
     const content = document.querySelector('#content');
 
     const foodImg = document.createElement('img');
@@ -9,8 +7,8 @@ function displayHome() {
     content.appendChild(foodImg);
 
     //Restaurant Name and Description
-    const header = document.createElement('div');
-    header.classList.add('header');
+    const home = document.createElement('div');
+    home.classList.add('home');
 
     const restaurantName = document.createElement('h1');
     restaurantName.textContent = "Bubby's";
@@ -21,11 +19,11 @@ function displayHome() {
     const description = document.createElement('p');
     description.innerText = " Bubby's opened on Thanksgiving Day 1990. Chef / Owner Ron Silver began baking pies and selling them to restaurants and his neighbors out of a small kitchen at the corner of Hudson and North Moore St. in Tribeca. Today, NYC's beloved restaurant and pie shop celebrates 27 years of classic, made from scratch American cooking.";
 
-    header.appendChild(restaurantName);
-    header.appendChild(catchprhase);
-    header.appendChild(description);
+    home.appendChild(restaurantName);
+    home.appendChild(catchprhase);
+    home.appendChild(description);
 
-    content.append(header);
+    content.append(home);
 }
 
 export { displayHome };
