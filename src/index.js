@@ -1,6 +1,7 @@
 import { displayHome } from "./home";
 import { displayMenu } from "./menu";
 import { displayContact } from "./contact";
+import './style.css';
 
 const content = document.querySelector('#content');
 const homeButton = document.querySelector('#home');

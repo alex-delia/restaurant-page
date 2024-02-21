@@ -1,8 +1,11 @@
+import foodImage from "./images/food.jpeg";
+import './style.css';
+
 function displayHome() {
     const content = document.querySelector('#content');
 
     const foodImg = document.createElement('img');
-    foodImg.src = '../images/food.jpeg';
+    foodImg.src = foodImage;
 
     content.appendChild(foodImg);
 
