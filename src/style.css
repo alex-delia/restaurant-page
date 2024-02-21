@@ -48,7 +48,7 @@ button:hover {
 
 #content {
     max-width: 60vw;
-    min-width: 750gpx;
+    min-width: 750px;
     margin-top: 24px;
     padding: 16px 24px;
     display: grid;
