@@ -11,16 +11,22 @@ const contactButton = document.querySelector('#contact');
 displayHome();
 
 homeButton.addEventListener('click', () => {
-    content.innerHTML = '';
+    while (content.firstChild) {
+        content.firstChild.remove();
+    }
     displayHome();
 })
 
 menuButton.addEventListener('click', () => {
-    content.innerHTML = '';
+    while (content.firstChild) {
+        content.firstChild.remove();
+    }
     displayMenu();
 })
 
 contactButton.addEventListener('click', () => {
-    content.innerHTML = '';
+    while (content.firstChild) {
+        content.firstChild.remove();
+    }
     displayContact();
 })

@@ -5,7 +5,7 @@ function displayMenu() {
 
     const restaurantName = document.createElement('h1');
     restaurantName.classList.add('title');
-    restaurantName.innerText = "Bubby's";
+    restaurantName.textContent = "Bubby's";
     content.appendChild(restaurantName);
 
     const leftMenu = document.createElement('div');
@@ -19,14 +19,14 @@ function displayMenu() {
     menuItem1.classList.add('menuItem');
 
     const menuItem1Name = document.createElement('h3');
-    menuItem1Name.innerText = 'Antipasto';
+    menuItem1Name.textContent = 'Antipasto';
 
     const menuItem1Price = document.createElement('span');
-    menuItem1Price.innerText = '$30';
+    menuItem1Price.textContent = '$30';
 
     const menuItem1Description = document.createElement('p');
     menuItem1Description.classList.add('menuDescription')
-    menuItem1Description.innerText = 'Cured meats, cheese and accompaniments.';
+    menuItem1Description.textContent = 'Cured meats, cheese and accompaniments.';
 
     menuItem1.appendChild(menuItem1Name);
     menuItem1.appendChild(menuItem1Price);
@@ -39,14 +39,14 @@ function displayMenu() {
     menuItem2.classList.add('menuItem');
 
     const menuItem2Name = document.createElement('h3');
-    menuItem2Name.innerText = 'Aglio e Formaggio';
+    menuItem2Name.textContent = 'Aglio e Formaggio';
 
     const menuItem2Price = document.createElement('span');
-    menuItem2Price.innerText = '$16';
+    menuItem2Price.textContent = '$16';
 
     const menuItem2Description = document.createElement('p');
     menuItem2Description.classList.add('menuDescription')
-    menuItem2Description.innerText = 'Roasted garlic bulb served with warm pesto crusted goat cheese. Drizzled with honey, apricot mostarda and served with rustic crisps';
+    menuItem2Description.textContent = 'Roasted garlic bulb served with warm pesto crusted goat cheese. Drizzled with honey, apricot mostarda and served with rustic crisps';
 
     menuItem2.appendChild(menuItem2Name);
     menuItem2.appendChild(menuItem2Price);
@@ -59,14 +59,14 @@ function displayMenu() {
     menuItem3.classList.add('menuItem');
 
     const menuItem3Name = document.createElement('h3');
-    menuItem3Name.innerText = 'Bruschetta';
+    menuItem3Name.textContent = 'Bruschetta';
 
     const menuItem3Price = document.createElement('span');
-    menuItem3Price.innerText = '$14';
+    menuItem3Price.textContent = '$14';
 
     const menuItem3Description = document.createElement('p');
     menuItem3Description.classList.add('menuDescription')
-    menuItem3Description.innerText = 'Traditional style fresh tomatoes, onions, and fresh garlic on our homemade focaccia bread';
+    menuItem3Description.textContent = 'Traditional style fresh tomatoes, onions, and fresh garlic on our homemade focaccia bread';
 
     menuItem3.appendChild(menuItem3Name);
     menuItem3.appendChild(menuItem3Price);
@@ -79,14 +79,14 @@ function displayMenu() {
     menuItem4.classList.add('menuItem');
 
     const menuItem4Name = document.createElement('h3');
-    menuItem4Name.innerText = 'Pane di Fichi';
+    menuItem4Name.textContent = 'Pane di Fichi';
 
     const menuItem4Price = document.createElement('span');
-    menuItem4Price.innerText = '$20';
+    menuItem4Price.textContent = '$20';
 
     const menuItem4Description = document.createElement('p');
     menuItem4Description.classList.add('menuDescription')
-    menuItem4Description.innerText = 'Homemade fig jam, Gorgonzola cheese, honey, pears and arugula on Italian flatbread';
+    menuItem4Description.textContent = 'Homemade fig jam, Gorgonzola cheese, honey, pears and arugula on Italian flatbread';
 
     menuItem4.appendChild(menuItem4Name);
     menuItem4.appendChild(menuItem4Price);
@@ -99,14 +99,14 @@ function displayMenu() {
     menuItem5.classList.add('menuItem');
 
     const menuItem5Name = document.createElement('h3');
-    menuItem5Name.innerText = 'Involtini di Melanzane';
+    menuItem5Name.textContent = 'Involtini di Melanzane';
 
     const menuItem5Price = document.createElement('span');
-    menuItem5Price.innerText = '$15';
+    menuItem5Price.textContent = '$15';
 
     const menuItem5Description = document.createElement('p');
     menuItem5Description.classList.add('menuDescription')
-    menuItem5Description.innerText = 'Rolls of pan seared eggplant filled with ricotta cheese, spinach, and basil. Then baked with tomato sauce and parmesan finished with walnut pesto';
+    menuItem5Description.textContent = 'Rolls of pan seared eggplant filled with ricotta cheese, spinach, and basil. Then baked with tomato sauce and parmesan finished with walnut pesto';
 
     menuItem5.appendChild(menuItem5Name);
     menuItem5.appendChild(menuItem5Price);
@@ -119,14 +119,14 @@ function displayMenu() {
     menuItem6.classList.add('menuItem');
 
     const menuItem6Name = document.createElement('h3');
-    menuItem6Name.innerText = 'Fromaggio Fritto';
+    menuItem6Name.textContent = 'Fromaggio Fritto';
 
     const menuItem6Price = document.createElement('span');
-    menuItem6Price.innerText = '$12';
+    menuItem6Price.textContent = '$12';
 
     const menuItem6Description = document.createElement('p');
     menuItem6Description.classList.add('menuDescription')
-    menuItem6Description.innerText = 'Sliced and breaded creamy provolone cheese deep fried, served with our tomato sauce';
+    menuItem6Description.textContent = 'Sliced and breaded creamy provolone cheese deep fried, served with our tomato sauce';
 
     menuItem6.appendChild(menuItem6Name);
     menuItem6.appendChild(menuItem6Price);
@@ -139,14 +139,14 @@ function displayMenu() {
     menuItem7.classList.add('menuItem');
 
     const menuItem7Name = document.createElement('h3');
-    menuItem7Name.innerText = 'Cozze';
+    menuItem7Name.textContent = 'Cozze';
 
     const menuItem7Price = document.createElement('span');
-    menuItem7Price.innerText = '$15';
+    menuItem7Price.textContent = '$15';
 
     const menuItem7Description = document.createElement('p');
     menuItem7Description.classList.add('menuDescription')
-    menuItem7Description.innerText = 'Fresh mussels sautéed with tomatoes, garlic, onion, and white wine';
+    menuItem7Description.textContent = 'Fresh mussels sautéed with tomatoes, garlic, onion, and white wine';
 
     menuItem7.appendChild(menuItem7Name);
     menuItem7.appendChild(menuItem7Price);
@@ -159,14 +159,14 @@ function displayMenu() {
     menuItem8.classList.add('menuItem');
 
     const menuItem8Name = document.createElement('h3');
-    menuItem8Name.innerText = 'Insalata di Bresaola';
+    menuItem8Name.textContent = 'Insalata di Bresaola';
 
     const menuItem8Price = document.createElement('span');
-    menuItem8Price.innerText = '$18';
+    menuItem8Price.textContent = '$18';
 
     const menuItem8Description = document.createElement('p');
     menuItem8Description.classList.add('menuDescription')
-    menuItem8Description.innerText = 'Thinly sliced cured beef tenderloin and arugula tossed with a Sicilian lemon dressing, crispy capers, quail egg, shaved Grana Padano';
+    menuItem8Description.textContent = 'Thinly sliced cured beef tenderloin and arugula tossed with a Sicilian lemon dressing, crispy capers, quail egg, shaved Grana Padano';
 
     menuItem8.appendChild(menuItem8Name);
     menuItem8.appendChild(menuItem8Price);

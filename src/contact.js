@@ -5,14 +5,14 @@ function displayContact() {
 
     const restaurantName = document.createElement('h1');
     restaurantName.classList.add('title');
-    restaurantName.innerText = "Bubby's";
+    restaurantName.textContent = "Bubby's";
     content.appendChild(restaurantName);
 
     //contact info
     const contactContainer = document.createElement('div');
 
     const contactUs = document.createElement('h2');
-    contactUs.innerText = 'Contact Us'
+    contactUs.textContent = 'Contact Us'
     contactUs.style.marginBottom = '8px';
 
     const email = document.createElement('p');
